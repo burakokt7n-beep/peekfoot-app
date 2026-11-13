@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Peekfoot: Akıllı Moda & Lens",
+    "slug": "peekfoot-fashion-lens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.peekfoot.fashionlens",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Kıyafet ve kombin taramak için galeri erişimi gereklidir.",
+          "cameraPermission": "Anlık ürün taramak için kamera erişimi gereklidir."
+        }
+      ]
+    ]
+  }
+}
