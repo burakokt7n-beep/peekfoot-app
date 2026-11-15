@@ -9,9 +9,10 @@
       "package": "com.peekfoot.fashionlens",
       "versionCode": 1,
       "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "plugins": [
@@ -22,6 +23,11 @@
           "cameraPermission": "Anlık ürün taramak için kamera erişimi gereklidir."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3de525af-c594-4b44-ac66-46d66b72d82b"
+      }
+    }
   }
 }
