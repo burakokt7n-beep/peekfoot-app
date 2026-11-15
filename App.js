@@ -298,3 +298,33 @@ export default function App() {
             </View>
 
             {!isPremium && (
+<View style={styles.card}>
+                <Text style={styles.sectionTitle}>Pro Üyeliğe Geç</Text>
+                <Text style={styles.sectionDesc}>
+                  Sınırsız tarama ve stil analizi için Pro plana geçebilirsin.
+                </Text>
+              </View>
+            )}
+          </View>
+        )}
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: COLORS.bg },
+  header: { flexDirection: ‘row’, justifyContent: ‘space-between’, alignItems: ‘center’, padding: 16, borderBottomWidth: 1, borderBottomColor: COLORS.border },
+  headerTitle: { color: COLORS.text, fontSize: 20, fontWeight: ‘bold’ },
+  proBadge: { backgroundColor: COLORS.primary, paddingHorizontal: 10, paddingVertical: 4, borderRadius: 12 },
+  proBadgeText: { color: ‘#FFFFFF’, fontSize: 12, fontWeight: ‘bold’ },
+  content: { flex: 1, padding: 16 },
+  card: { backgroundColor: COLORS.card, borderRadius: 16, padding: 16, marginBottom: 16, borderWidth: 1, borderColor: COLORS.border },
+  sectionTitle: { color: COLORS.text, fontSize: 18, fontWeight: ‘bold’, marginBottom: 8 },
+  sectionDesc: { color: COLORS.muted, fontSize: 14, lineHeight: 20, marginBottom: 16 },
+  row: { flexDirection: ‘row’, gap: 12 },
+  actionBtn: { flex: 1, backgroundColor: COLORS.primary, paddingVertical: 12, borderRadius: 12, alignItems: ‘center’ },
+  actionBtnSecondary: { backgroundColor: COLORS.border },
+  actionBtnText: { color: COLORS.text, fontWeight: ‘bold’, fontSize: 14 },
+  previewImg: { width: ‘100%’, height: 220, borderRadius: 12, marginTop: 16 },
+});
