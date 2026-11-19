@@ -22,7 +22,8 @@
           "photosPermission": "Kıyafet ve kombin taramak için galeri erişimi gereklidir.",
           "cameraPermission": "Anlık ürün taramak için kamera erişimi gereklidir."
         }
-      ]
+      ],
+      [“expo-build-properties”, { “android”: { “minSdkVersion”: 24 } }]
     ],
     "extra": {
       "eas": {
