@@ -1,1 +1,3 @@
-const{withGradleProperties}=require("@expo/config-plugins");module.exports=c=>withGradleProperties(c,g=>(g.modResults.push({"type":"property","key":"android.minSdkVersion","value":"24"}),g));
+const p=require("@expo/config-plugins");
+module.exports=c=>p.withAndroidManifest(c,m=>{
+m.modResults.manifest["uses-permission"].push({$:{"android:name":"com.google.android.gms.permission.AD_ID"}});return m;});
