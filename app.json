@@ -22,12 +22,16 @@
           "photosPermission": "Kıyafet ve kombin taramak için galeri erişimi gereklidir.",
           "cameraPermission": "Anlık ürün taramak için kamera erişimi gereklidir."
         }
-      ]
+      ],
+      "./sdk24.js"
     ],
     "extra": {
       "eas": {
         "projectId": "3de525af-c594-4b44-ac66-46d66b72d82b"
       }
+    },
+    "splash": {
+      "backgroundColor": "#ffffff"
     }
   }
 }
