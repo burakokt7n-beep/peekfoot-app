@@ -7,7 +7,7 @@
     "userInterfaceStyle": "dark",
     "android": {
       "package": "com.peekfoot.fashionlens",
-      "versionCode": 2,
+      ""versionCode": 4,
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",

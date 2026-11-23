@@ -26,7 +26,7 @@ const COLORS = {
 };
 
 export default function App() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState({name:"Misafir"});
   const [authMode, setAuthMode] = useState('email');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -35,7 +35,7 @@ export default function App() {
   const [smsSent, setSmsSent] = useState(false);
 
   const [activeTab, setActiveTab] = useState('scan');
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState({name:"Misafir"});
   const [scanResults, setScanResults] = useState([]);
   const [history, setHistory] = useState([]);
   const [favorites, setFavorites] = useState([]);
