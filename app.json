@@ -23,7 +23,7 @@
           "cameraPermission": "Anlık ürün taramak için kamera erişimi gereklidir."
         }
       ],
-      "./sdk26.js"
+      "./sdk24.js"
     ],
     "extra": {
       "eas": {
