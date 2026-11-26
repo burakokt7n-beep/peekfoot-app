@@ -7,7 +7,7 @@
     "userInterfaceStyle": "dark",
     "android": {
       "package": "com.peekfoot.fashionlens",
-      "versionCode": 4,
+      "versionCode": 6,
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",
@@ -23,11 +23,11 @@
           "cameraPermission": "Anlık ürün taramak için kamera erişimi gereklidir."
         }
       ],
-      "./sdk24.js"
+      "./sdk26.js"
     ],
     "extra": {
       "eas": {
-        "projectId": "386d4a1b-71c1-4648-b168-936ffa1f377b"
+        "projectId": "386d6a1b-71c1-4648-b168-936ffa1f377b"
       }
     },
     "splash": {
