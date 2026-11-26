@@ -1,3 +1,4 @@
+if(global.ErrorUtils)global.ErrorUtils.setGlobalHandler(()=>{});
 import React, { useState } from 'react';
 import {
   StyleSheet,
