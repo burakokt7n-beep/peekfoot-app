@@ -3,22 +3,17 @@
     "name": "Peekfoot: Akıllı Moda & Lens",
     "slug": "peekfoot-fashion-lens",
     "version": "1.0.0",
-    "newArchEnabled": false,
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "android": {
       "package": "com.peekfoot.fashionlens",
-      "versionCode": 6,
+      "versionCode": 4,
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.RECORD_AUDIO"
-      ],
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0B0B13"
-      }
+      ]
     },
     "plugins": [
       [
@@ -37,7 +32,6 @@
     },
     "splash": {
       "backgroundColor": "#ffffff"
-    },
-    "icon": "./assets/icon.png"
+    }
   }
 }
