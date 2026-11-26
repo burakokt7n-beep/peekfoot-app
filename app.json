@@ -3,11 +3,12 @@
     "name": "Peekfoot: Akıllı Moda & Lens",
     "slug": "peekfoot-fashion-lens",
     "version": "1.0.0",
+    "newArchEnabled": false,
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "android": {
       "package": "com.peekfoot.fashionlens",
-      "versionCode": 4,
+      "versionCode": 5,
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",
